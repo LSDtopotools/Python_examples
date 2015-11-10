@@ -37,7 +37,7 @@ def read_csv_into_dictionary(filename):
     print keyList
     
     
-    return reader
+    return theDict
     
     
 if __name__ == "__main__":
