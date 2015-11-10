@@ -42,4 +42,4 @@ def read_csv_into_dictionary(filename):
     
 if __name__ == "__main__":
     Filename = "SanBern_Spawned_CRNResults.csv"
-    read_csv_into_dictionary(Filename) 
+    DataDict = read_csv_into_dictionary(Filename) 

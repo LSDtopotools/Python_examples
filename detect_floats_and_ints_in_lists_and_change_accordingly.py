@@ -5,7 +5,7 @@ Created on Tue Nov 10 13:12:12 2015
 @author: smudd
 """
 
-from read_csv_into_dictionary import *
+from read_csv_into_dictionary import read_csv_into_dictionary
 import re
 
 # This changes lists of strings into flaots or ints, depending on their contents. 
@@ -36,12 +36,12 @@ def detect_floats_and_ints_in_lists_and_change_accordingly(DataDict):
             #print "key is: " + key
             DataDict[key] = newList
         
-    for key, thisList in DataDict.iteritems():        
-        print "Key is: " + key
-        print thisList
+    #for key, thisList in DataDict.iteritems():        
+    #    print "Key is: " + key
+    #    print thisList
                     
                     
-        
+    return DataDict   
     
     
     
